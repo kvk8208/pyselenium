@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="46.297" timestamp="2025-04-11T16:43:00.787592+05:30" hostname="Krishna_Kadam"><testcase classname="test_first" name="test_dws" time="6.097" /><testcase classname="test_first" name="test_csk" time="20.317" /><testcase classname="test_first" name="test_mi" time="11.173" /><testcase classname="test_first" name="test_rcb" time="5.131" /><testcase classname="test_second" name="test_srh" time="3.116"><failure message="assert 2 == 3">def test_srh():
+        driver = webdriver.Chrome()
+        driver.maximize_window()
+        driver.implicitly_wait(15)
+        driver.get("https://www.sunrisershyderabad.in/")
+&gt;       assert 2==3
+E       assert 2 == 3
+
+test_second.py:7: AssertionError</failure></testcase></testsuite></testsuites>
